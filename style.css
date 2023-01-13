@@ -1,0 +1,77 @@
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+label{
+    font-family: 'Montserrat', sans-serif;
+}
+.form-control{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    font-family:  "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-style: normal;
+}
+.form-control::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+.btnAdd{
+    background-color: #0A5AD0;
+    color: #FFFFFF;
+    font-size: medium;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.submit{
+    margin-top: 10px;
+    margin-left: 45%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    background-color: lightseagreen;
+    color: white;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn:hover{
+    background-color: #0A5AD0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+th,td {
+/* padding top and bottom are 16px and left and right are 32px */
+padding: 16px 32px; 
+text-align: center;
+border-bottom: 1px solid #ddd;
+}
+th {
+font-weight: normal;
+color: white;
+background: black;
+}

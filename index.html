@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+    </style>
+
+    <title>Form Data</title>
+</head>
+<body>
+    <div class="container">
+    <button class="btnAdd" id="addUser"><strong>Add Data</strong></button>
+        <form action="" id="formData">
+            <label for="Name"><strong>Name:</strong></label><br>
+            <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+            <label for="Email"><strong>Email:</strong> </label><br>
+            <input type="text" class="form-control" id="email" placeholder="Enter Your Email">
+            <label for="Password" ><strong>Password:</strong> </label><br>
+            <input type="password" class="form-control" id="password" placeholder="Enter Your Password">
+            <label for="Address"><strong>Address: </strong></label><br>
+            <textarea id="Address" cols="135" rows="2" class="form-control"></textarea>
+            <label for="phoneNumber" ><strong>PhoneNumber: </strong></label><br>
+            <input type="tel" class="form-control" id="PhoneNumber" placeholder="Enter Your PhoneNumber" maxlength="10" pattern="[0-9]{10}" ><br>
+            <button class="submit" id="Submit"><strong>Submit</strong></button>
+            <p id="saveChanges"></p>
+        </form>
+        <table id="tabledata">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th colspan="3">Button</th>
+            </tr>
+            </thead>
+            <tbody id="demo">
+                
+            </tbody>
+        </table>
+        <!-- <table id="tabledata1">
+            <thead>
+            <tr>
+                <th>Address</th>
+                <th>PhoneNumber</th>
+                <th>Button</th>
+            </tr>
+            </thead>
+
+            <tbody id="viewData">
+
+            </tbody>
+        </table> -->
+        <p id="data"></p>
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>
